@@ -1,0 +1,17 @@
+#javascript-showing {
+  display: none;
+  width: 300px;
+}
+
+#javascript-hidden {
+  width: 300px;
+}
+
+.javascript {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.javascript:hover {
+  text-decoration: underline;
+}
