@@ -1,10 +1,5 @@
 #javascript-showing {
   display: none;
-  width: 300px;
-}
-
-#javascript-hidden {
-  width: 300px;
 }
 
 .javascript {
@@ -13,5 +8,57 @@
 }
 
 .javascript:hover {
+  text-decoration: underline;
+}
+
+#operators-showing {
+  display: none;
+}
+
+.operators {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.operators:hover {
+  text-decoration: underline;
+}
+
+#variables-showing {
+  display: none;
+}
+
+.variables {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.variables:hover {
+  text-decoration: underline;
+}
+
+#vnc-showing {
+  display: none;
+}
+
+.vnc {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.vnc:hover {
+  text-decoration: underline;
+}
+
+#functions-showing {
+  display: none;
+}
+
+.functions {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.functions:hover {
   text-decoration: underline;
 }
