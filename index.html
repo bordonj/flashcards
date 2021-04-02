@@ -10,9 +10,13 @@
 <body>
   <div class="container">
     <h1>Flashcards</h1>
-    <p><strong>JS and jQuery</strong> are useful when trying to make an interactive webpage. It is helpful to understand how to use these when learning about webpage development!</p>
+    <p><strong>JS and jQuery</strong> are useful when trying to make an interactive webpage. It is helpful to understand how to use these when learning about webpage development!</p> <a href="https://epicodus.com">Epicodus</a> created the reference that helped guide this page. Please see <a href="https://www.learnhowtoprogram.com/introduction-to-programming-part-time-react-track/javascript-and-jquery">this page</a> for the reference.
 
-    <p>Let's learn some concepts! Click the following words to see the definitions and practice memorizing and understanding the words/defntions!</p> 
+    <p>Let's learn some concepts! We have a total of <b>19 key words.</b>
+      <br>
+      <br>
+      Click the following words to see the definitions and practice memorizing and understanding the words/defntions!
+    </p> 
     <div class="row">
       <div class="col-3">
         <div id="javascript-hidden">
@@ -43,7 +47,7 @@
             <p id="vnc"><span class="vnc">Variable naming conventions</span></p>
           </div>
           <div id="vnc-showing">
-            <p id="vnc"><b>Variable naming conventions</b> are very important in JavaScript. An example is <b>myVariableName</b><div class=""></div> This naming convention is called <b>lower camel case</b> because the lower and upper case letters look a little like the humps on a camel. (There are other camel case naming conventions such as upper camel case, too, which will learn about when they are needed.).</p>
+            <p id="vnc"><b>Variable naming conventions</b> are very important in JavaScript. This naming convention is called <b>lower camel case</b> because the lower and upper case letters look a little like the humps on a camel. (There are other camel case naming conventions such as upper camel case, too, which will learn about when they are needed.). An example is <div class="quote">myVariableName</div></p>
           </div>
         </div>
       </div>
@@ -53,9 +57,153 @@
             <p id="functions"><span class="functions">Functions</span></p>
           </div>
           <div id="functions-showing">
-            <p id="functions">A JavaScript <b>function</b> is a block of code designed to perform a particular task. A JavaScript function is executed when "something" invokes it (calls it).
+            <p id="functions">A JavaScript <b>function</b> is a block of code designed to perform a particular task. A JavaScript function is executed when "something" invokes it (calls it).</p>
           </div>
         </div>
+        <div class="col-3">
+          <div id="methods-hidden">
+            <p id="methods"><span class="methods">Methods</span></p>
+          </div>
+          <div id="methods-showing">
+            <p id="methods">A <b>method</b> is a kind of function that is called on something. A function is just a bundle of code that performs a set of procedures. For example <div class="quote">"This is a string.".toUpperCase()</div>
+            </p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div id="arguments-hidden">
+            <p id="arguments"><span class="arguments">Arguments</span></p>
+          </div>
+          <div id="arguments-showing">
+            <p id="arguments">
+              <b>Arguments</b> are passed into the parentheses (). It's not required for a method to have arguments. Some take no arguments, some take optional arguments, and some take one or even many arguments. 
+              <br>
+              <br>
+              In the example below, "This is a string" is the receiver, concat is the method, and "!!!" is the argument we pass into the method. As we can see, String.prototype.concat() takes the argument (in this case "!!!") and attaches it to the receiver ("This is a string!!!")
+              <div class="quote">""This is a string".concat("!!!");
+                "This is a string!!!"</div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div id="parameters-hidden">
+            <p id="parameters"><span class="parameters">Parameters</span></p>
+          </div>
+          <div id="parameters-showing">
+            <p id="parameters">
+              A <b>parameter</b> is a placeholder for an argument. We use parameters when we declare functions and methods. We'll learn more about declaring functions when we actually start creating our own custom functions soon.
+              <br>
+              <br>Below, in function addEmphasis(string), string is a parameter. That means it's a placeholder for a variable. It has no value yet. Once we pass an argument into the parameter, the parameter takes on the value of the argument. If, for some reason, we forget to pass an argument into a parameter, that parameter's value will be undefined.
+              <div class="quote">function addEmphasis(string) {
+                return string.toUpperCase().concat("!!!");
+              }</div>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div id="return-hidden">
+            <p id="return"><span class="return">Return</span></p>
+          </div>
+          <div id="return-showing">
+            <p id="return">The <b>return</b> statement ends function execution and specifies a value to be returned to the function caller.</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div id="cmethods-hidden">
+            <p id="cmethods"><span class="cmethods">Chaining methods</span></p>
+          </div>
+          <div id="cmethods-showing">
+            <p id="cmethods">Methods can be <b>chained</b>. This means you can add methods to each other after typing one out. In the example below, we chain concat and uppercase methods.
+            <div class="quote">"foo".concat("bar").toUpperCase();
+              "FOOBAR"</div></p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div id="strngs-hidden">
+            <p id="strngs"><span class="strngs">Strings</span></p>
+          </div>
+          <div id="strngs-showing">
+            <p id="strngs"><b>String:</b> a JavaScript data type that represents the exact text of whatever is enclosed in the quotes.
+            <div class="quote">const myString = "Strings can contain characters like @, $, and %.";</div></p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div id="boo-hidden">
+            <p id="boo"><span class="boo">Booleans</span></p>
+          </div>
+          <div id="boo-showing">
+            <p id="boo"><b>>Boolean:</b> A boolean can be one of two values: true or false. That's it. We will use these a lot, too, and we will cover these in detail next week.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div id="undef-hidden">
+            <p id="undef"><span class="undef">Undefined</span></p>
+          </div>
+          <div id="undef-showing">
+            <p id="undef">The global <b>undefined</b> property represents the primitive value undefined. It is one of JavaScript's primitive types. <b>A variable that has not been assigned a value is of type undefined.</b> A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned.</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div id="nan-hidden">
+            <p id="nan"><span class="nan">NaN</span></p>
+          </div>
+          <div id="nan-showing">
+            <p id="nan">NaN is a property of the global object. In other words, it is a variable in global scope.
+            <br>
+            <br>
+            The initial value of <b>NaN is Not-A-Number</b> — the same as the value of Number.NaN. In modern browsers, NaN is a non-configurable, non-writable property. Even when this is not the case, avoid overriding it. It is rather rare to use NaN in a program./p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div id="null-hidden">
+            <p id="null"><span class="null">Null</span></p>
+          </div>
+          <div id="null-showing">
+            <p id="null">The value null is written with a literal: null. null is not an identifier for a property of the global object, like undefined can be. Instead, <b>>null expresses a lack of identification, indicating that a variable points to no object.</b> In APIs, null is often retrieved in a place where an object can be expected but no object is relevant. </p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div id="alrt-hidden">
+            <p id="alrt"><span class="alrt">Alert</span></p>
+          </div>
+          <div id="alrt-showing">
+            <p id="alrt"><b>alert()</b> is a function. A function is something that performs an action. Just like a method, a function can take an argument. The alert() function pops up a dialog box with the string that you pass in as an argument.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div id="comm-hidden">
+            <p id="comm"><span class="comm">Comments</span></p>
+          </div>
+          <div id="comm-showing">
+            <p id="comm">A comment is used to add explanatory notes to the code or to prevent the browser from interpreting specific parts of the style sheet. By design, comments have no effect on the layout of a document.
+              <div class="quote">/* Comment */</div>
+            </p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div id="jq-hidden">
+            <p id="jq"><span class="jq">jQuery</span></p>
+          </div>
+          <div id="jq-showing">
+            <p id="jq"><b>jQuery is a JavaScript Library that focuses on simplifying DOM manipulation, AJAX calls, and Event handling.</b><br>
+            <br>
+            jQuery uses a format, $(selector).action() to assign an element(s) to an event. To explain it in detail, $(selector) will call jQuery to select selector element(s), and assign it to an event API called .action().</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div id="att-hidden">
+            <p id="att"><span class="att">Attributes</span></p>
+          </div>
+          <div id="att-showing">
+            <p id="att">An <b>attribute</b> defines the source of what you are trying to reference. Quotation marks must always be added to an attribute. Any information about the attribute is included inside the quotation marks.</p>
+          </div>
+        </div>
+      </div>
+
       </div>
 
     </div>

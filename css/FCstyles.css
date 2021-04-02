@@ -1,3 +1,34 @@
+.quote {
+  background-color: #ededed;
+  border: 1px solid #ababab;
+  padding: 10px;
+  font-family: monospace;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+A:link {
+  color: #214c62;
+  font-weight: bold;
+}
+
+body A:hover {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+A:visited {
+  color: #214c62;
+  font-weight: bold;
+}
+
+A:active {
+  color: rgb(79, 79, 79);
+  font-weight: bold;
+}
+
+
 #javascript-showing {
   display: none;
 }
@@ -60,5 +91,187 @@
 }
 
 .functions:hover {
+  text-decoration: underline;
+}
+
+#methods-showing {
+  display: none;
+}
+
+.methods {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.methods:hover {
+  text-decoration: underline;
+}
+
+#arguments-showing {
+  display: none;
+}
+
+.arguments {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.arguments:hover {
+  text-decoration: underline;
+}
+
+#parameters-showing {
+  display: none;
+}
+
+.parameters {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.parameters:hover {
+  text-decoration: underline;
+}
+
+#return-showing {
+  display: none;
+}
+
+.return {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.return:hover {
+  text-decoration: underline;
+}
+
+#cmethods-showing {
+  display: none;
+}
+
+.cmethods {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.cmethods:hover {
+  text-decoration: underline;
+}
+
+#strngs-showing {
+  display: none;
+}
+
+.strngs {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.strngs:hover {
+  text-decoration: underline;
+}
+
+#boo-showing {
+  display: none;
+}
+
+.boo {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.boo:hover {
+  text-decoration: underline;
+}
+
+#undef-showing {
+  display: none;
+}
+
+.undef {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.undef:hover {
+  text-decoration: underline;
+}
+
+#nan-showing {
+  display: none;
+}
+
+.nan {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.nan:hover {
+  text-decoration: underline;
+}
+
+#null-showing {
+  display: none;
+}
+
+.null {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.null:hover {
+  text-decoration: underline;
+}
+
+#alrt-showing {
+  display: none;
+}
+
+.alrt {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.alrt:hover {
+  text-decoration: underline;
+}
+
+#comm-showing {
+  display: none;
+}
+
+.comm {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.comm:hover {
+  text-decoration: underline;
+}
+
+#jq-showing {
+  display: none;
+}
+
+.jq {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.jq:hover {
+  text-decoration: underline;
+}
+
+#att-showing {
+  display: none;
+}
+
+.att {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.att:hover {
   text-decoration: underline;
 }
