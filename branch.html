@@ -1,16 +1,75 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <script src="js/branch.js"></script>
-  <script src="js/jquery-3.6.0.js"></script>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/branch.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/branch.js"></script>
   <title>Branching Practice</title>
 </head>
 <body>
   <div class="container">
     <h1>Enter Forms</h1>
-    
+    <form id='info'>
+      <label for='age'>Age</label>
+      <input id='age' type='text'>
+      <label for='name'>Name</label>
+      <input id='name' type='text'>
+      <button type='submit' class='btn btn-success'>See my options!</button>
+    </form>
+    <!-- <div class="form-group">
+      <label for="yourName">Your Name:</label>
+      <input id="yourName" class='form-control' type='text'>
+    </div>
+    <div class='form-group'>
+      <label for='yourAge'>Your age:</label>
+      <input id="yourAge" class='form-control' type='text'>
+    </div> -->
+    <div id='menu-adult'>
+
+      <h1>Welcome <span class='name'></span>! Please see our available drinks</h1>
+      <h2>Cocktails</h2>
+      <ul>
+        <li>Trashcan</li>
+        <li>Garbage</li>
+        <li>Dumpster</li>
+      </ul>
+      <h2>Soju</h2>
+      <ul>
+        <li>soju1</li>
+        <li>soju2</li>
+        <li>soju3</li>
+      </ul>
+      <h2>Wine</h2>
+      <ul>
+        <li>Grapedrank</li>
+        <li>Orangedrank</li>
+        <li>Purpledrank</li>
+      </ul>
+    </div>
+
+    <div id="menu-kid">
+      <h1>Welcome <span class='name'></span>! Please see our available non-alcoholic drinks</h1>
+      <h2>Juice</h2>
+      <ul>
+        <li>Orange</li>
+        <li>Grape</li>
+        <li>Lychee</li>
+      </ul>
+      <h2>Milk</h2>
+      <ul>
+        <li>Strawberry</li>
+        <li>Chocolate</li>
+        <li>Vanilla</li>
+        <li>Goat</li>
+      </ul>
+      <h2>Boba</h2>
+      <ul>
+        <li>Taro</li>
+        <li>Brown Sugar</li>
+        <li>Matcha</li>
+      </ul>
+    </div>
   </div>
 </body>
 </html>
